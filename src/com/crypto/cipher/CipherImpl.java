@@ -30,7 +30,7 @@ public class CipherImpl implements CipherI {
 			// ASCII for upper case starts from 64 (A) and ends at 90 (Z)
 			setStartAndEnd(64, 90);
 		} else {
-			// ASCII for lower case starts from 96 (a) and ends at 90 (Z)
+			// ASCII for lower case starts from 96 (a) and ends at 122 (Z)
 			setStartAndEnd(96, 122);
 		}
 	}
