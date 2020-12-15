@@ -11,7 +11,7 @@ public class CipherImpl implements CipherI {
 	private int end;
 	private int position;
 
-	private char[] toCharacterArray(String message) {
+	private char[] toCharacterArray(String message) throws IllegalArgumentException {
 		Optional.ofNullable(message).orElseThrow(IllegalArgumentException::new);
 		return message.toCharArray();
 	}
