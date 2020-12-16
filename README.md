@@ -1,4 +1,4 @@
-# Cipher Algorithm
+# Caesar Cipher Algorithm
 
 This application performs encoding and decoding of the given strings with the specified number of iterations. Only the strings in the US ASCII format are accepted. The strings are case-sensitive.
 
